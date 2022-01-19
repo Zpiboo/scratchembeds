@@ -11,4 +11,4 @@ Yes, that's it !
 Hope you enjoy.
 
 
-*If my english is not correct, just tell me it as an issue.*
+*If my english is not correct, just tell me it as an [issue](https://github.com/zpiboo/scratchembeds/issues).*
