@@ -10,5 +10,5 @@ projectRequest.onreadystatechange = function () {
 };
 
 projectRequest.open("GET", `${apiEndpoint}/projects/${projectID}`);
-projectRequest.setRequestHeader("Access-Control-Allow-Origin", "*");
+projectRequest.setRequestHeader("Access-Control-Allow-Origin", "https://zpiboo.github.io/");
 projectRequest.send();
