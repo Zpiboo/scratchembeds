@@ -8,6 +8,8 @@ projectRequest.onreadystatechange = function () {
     document.body.innerText = projectRequest.responseText;
   }
 };
+projectRequest.setRequestHeader("Origin", None);
+projectRequest.setRequestHeader("Referer", None);
 
 projectRequest.open("GET", `${apiEndpoint}/projects/${projectID}`);
 projectRequest.send();
