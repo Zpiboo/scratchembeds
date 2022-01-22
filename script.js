@@ -8,6 +8,7 @@ projectRequest.onreadystatechange = function () {
     document.body.innerText = projectRequest.responseText;
   }
 };
+projectRequest.setRequestHeader("Access-Control-Allow-Origin", "*");
 
 projectRequest.open("GET", `${apiEndpoint}/projects/${projectID}`);
 projectRequest.send();
