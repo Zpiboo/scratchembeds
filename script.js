@@ -1,6 +1,6 @@
 const urlParameters = new URLSearchParams(location.search);
 var projectID = urlParameters.get("id");
-const apiEndpoint = "https://api.scratch.mit.edu/";
+const apiEndpoint = "https://api.scratch.mit.edu";
 
 var projectRequest = new XMLHttpRequest();
 projectRequest.onreadystatechange = function () {
@@ -9,5 +9,5 @@ projectRequest.onreadystatechange = function () {
   }
 };
 
-projectRequest.open("GET", `projects/${projectID}`);
+projectRequest.open("GET", `${apiEndpoint}/projects/${projectID}`);
 projectRequest.send();
