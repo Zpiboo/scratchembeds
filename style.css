@@ -26,3 +26,9 @@ h1 {
 p {
   font-size: 20px;
 }
+
+code {
+  background-color: #28283f;
+  padding: 2px;
+  border-radius: 6px;
+}
